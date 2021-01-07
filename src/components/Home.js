@@ -15,18 +15,18 @@ const Home = () => {
             <div  className="dark-overlay" >
             
                         
-                        <Row style={{marginTop: "7rem", padding: "4rem"}}>
+                        <Row style={{marginTop: "11px", padding: "3rem"}}>
                             <div  className="col-lg-6 text-white">
-                                <h1 className="display-3 px-3">Hello,</h1>
+                                <h1 className="display-3 font-weight-bold">Hello,</h1>
                                 <div class="d-flex text-white">
-                                    <div class="p-4 align-self-start">
-                                        <p className="display-4">I am Nikhil Verma</p>
+                                    <div class="p-3 align-self-start">
+                                        <h1 className="display-5 font-weight-bold">I am Nikhil Verma</h1>
                                     </div>
                                 </div>
                                 <div class="d-flex text-white">
                                     <div class="p-4 align-self-start">
-                                        <p className="display-4">Spring Boot, React, React-Native, </p>
-                                        <p className="display-4 mt-0 animate_animated animate_fadeInRight">Web-Dev</p>
+                                        <h1 className="display-5 font-weight-bold">Spring Boot, React, React-Native, </h1>
+                                        <h1 className="display-5 mt-0  font-weight-bold">Web-Dev</h1>
                                     </div>
                                 </div>
                             </div>
