@@ -15,7 +15,7 @@ const Home = () => {
             <div  className="dark-overlay" >
             
                         
-                        <Row style={{marginTop: "11px", padding: "3rem"}}>
+                        <Row style={{marginTop: "7px", padding: "3rem"}}>
                             <div  className="col-lg-6 text-white">
                                 <h1 className="display-3 font-weight-bold">Hello,</h1>
                                 <div class="d-flex text-white">
