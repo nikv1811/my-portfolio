@@ -19,14 +19,14 @@ const Home = () => {
                             <div  className="col-lg-6 text-white">
                                 <h1 className="display-3 font-weight-bold">Hello,</h1>
                                 <div class="d-flex text-white">
-                                    <div class="p-3 align-self-start">
-                                        <h1 className="display-5 font-weight-bold">I am Nikhil Verma</h1>
+                                    <div class="p-2 align-self-start">
+                                        <h1 className="display-4 font-weight-bold">I am Nikhil Verma</h1>
                                     </div>
                                 </div>
                                 <div class="d-flex text-white">
                                     <div class="p-4 align-self-start">
-                                        <h1 className="display-5 font-weight-bold">Spring Boot, React, React-Native, </h1>
-                                        <h1 className="display-5 mt-0  font-weight-bold">Web-Dev</h1>
+                                        <h1 className="display-4 font-weight-bold">Spring Boot, React, React-Native, </h1>
+                                        <h1 className="display-4 mt-0  font-weight-bold">Web-Dev</h1>
                                     </div>
                                 </div>
                             </div>
