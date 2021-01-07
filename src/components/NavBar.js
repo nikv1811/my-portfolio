@@ -11,8 +11,8 @@ const NavBar = () => {
   const toggleNavbar = () => setCollapsed(!collapsed);
 
   return (
-    <nav className="bg-dark navbar navbar-expand-sm">
-      <Navbar dark clsssName="bg-dark">
+    <nav className="bg-light navbar navbar-expand-sm fixed-top" style={{ padding: 0, marginBottom: "5px"}} id="navbar">
+      <Navbar light>
         <NavbarBrand href="/fefwe" className="mr-auto">reactstrap</NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />
         <Collapse isOpen={!collapsed} navbar>

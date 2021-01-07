@@ -1,21 +1,26 @@
 import React from 'react';
 import resume from '../resume/resume_nikhil.pdf'
-import { Container,  } from 'reactstrap';
+import {Card, CardBody, CardFooter, CardHeader, CardText} from 'reactstrap';
 
 
 
 const About = () => {
     return(
-        <Container fluid>
-            <h1>About</h1>
-            <a href={resume} target="_blank" className="btn btn-warning" alt="Nikhil's Resume" rel="noreferrer" download>
-   {/* <Button>
-      <i className="fas fa-download"/>
-      Download File
-   </Button> */}
-   Download
-</a>
-        </Container>
+            <Card>
+                <CardHeader className="display-3 text-center text-white" style={{background: "#242B2E"}}><h2>About Me</h2></CardHeader>
+                <CardBody style={{background: "#CAD5E2"}}>
+                    <CardText>
+                        <h2 className="display-4 font-weight-bold">Hello!</h2>
+                        <h2 className="display-5">I am Nikhil</h2><br />
+                        <h3 className="display-5">Putting together bits and pieces of code to develop <strong>Web</strong> as well 
+                        as <strong>Android</strong> Applictions, have deep interest in Full-Stack Development and also in Photography, Currently working as Programmer Analyst Trainee in a MNC,
+                         and always looking for better opportunities</h3>
+                    </CardText>
+                </CardBody>
+                <CardFooter style={{background: "#CAD5E2"}}>
+                <a href={resume} target="_blank" className="btn btn-warning bg-warning" alt="Nikhil's Resume" rel="noreferrer" download>Download Resume</a>
+                </CardFooter>
+            </Card>        
     )
 }
 

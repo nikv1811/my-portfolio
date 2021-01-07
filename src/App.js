@@ -3,25 +3,56 @@ import React from 'react';
 // import {Link, Router} from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css"
 
-import NavBar from './components/NavBar';
+// import NavBar from './components/NavBar';
+// import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 import Home from './components/Home'
 import About from './components/About'
-// import { Card, CardBody, CardImg, Container } from 'reactstrap'
+import Skills from './components/Skills';
+import Footer from './components/Footer';
+import Projects from './components/Projects';
+// import {Container} from 'reactstrap'
 const App = () => {
   
+  // const [collapsed, setCollapsed] = useState(true);
+
+  // const toggleNavbar = () => setCollapsed(!collapsed);
   return(
     <div>
-    <NavBar />
-    <Home />
-    <About />
+
+{/* <nav className="bg-light navbar navbar-expand-sm fixed-top" style={{ padding: 0, marginBottom: "5px"}} id="navbar">
+      <Navbar light>
+        <NavbarBrand href="#home" className="mr-auto">Home</NavbarBrand>
+        <NavbarToggler onClick={toggleNavbar} className="mr-2" />
+        <Collapse isOpen={!collapsed} navbar>
+          <Nav navbar className="ml-auto">
+          <NavItem>
+              <a className="nav-link" href="#about">About</a>
+            </NavItem>
+            <NavItem>
+              <a className="nav-link" href="#home">Home</a>
+            </NavItem>
+            
+            <NavItem>
+              <a className="nav-link" href="#skills">Skills</a>
+            </NavItem>
+            <NavItem>
+              <a className="nav-link" href="#projects">Projects</a>
+            </NavItem>
+          </Nav>
+        </Collapse>
+      </Navbar>
+    </nav> */}
+
+    {/* <NavBar /> */}
+    <Home id="home"/>
+    <About id="about"/>
+    <Skills id="skills"/>
+    <Projects id="projects"/>
+    <Footer/>
+    
         
         
-    {/* <a href="https://drive.google.com/file/d/1j4CCeCUC0dS44c9sGXwVcWHuHkCynyB4/view?usp=sharing" target="_blank" download rel="noopener noreferrer" download>
-   <Button>
-      <i className="fas fa-download"/>
-      Download File
-   </Button>
-</a> */}
+    
     </div>
   )
 }
