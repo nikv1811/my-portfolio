@@ -7,7 +7,7 @@ import {Card, CardBody, CardFooter, CardHeader, CardText} from 'reactstrap';
 const About = () => {
     return(
             <Card>
-                <CardHeader className="display-3 text-center text-white" style={{background: "#242B2E"}}><h2>About Me</h2></CardHeader>
+                <CardHeader className="display-3 text-center text-white" style={{background: "#242B2E"}}><h2 style={{fontSize: "7vw"}}>About Me</h2></CardHeader>
                 <CardBody style={{background: "#CAD5E2"}}>
                     <CardText>
                         <h2 className="display-4 font-weight-bold">Hello!</h2>
