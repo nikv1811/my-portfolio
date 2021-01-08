@@ -7,7 +7,7 @@ const Projects = () => {
         <div className ="container-fluid" style={{marginTop: "11px", marginBottom: "21px"}}>
             <div style={{margin: "11px"}}>
                 <h3 className="display-4 font-weight-bold text-center text-white my-6">Some of my Projects</h3>
-                <span><p className="text-white text-center">Is se Jyada hai bhi vaise &#x1F622;</p></span>
+                <span><p className="text-white text-center">Is se Jyada hai bhi nahi vaise &#x1F622;</p></span>
             </div>
             <Row>
                 <Col lg="4" sm="6" >

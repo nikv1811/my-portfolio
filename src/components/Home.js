@@ -12,21 +12,20 @@ const Home = () => {
         
            
         <section id="home" className="pt-4">
-            <div  className="dark-overlay" >
+            {/* <div  className="dark-overlay" > */}
             
                         
-                        <Row style={{padding: "2rem"}}>
+                        <Row style={{paddingLeft: "4rem"}}>
                             <div  className="col-lg-6 text-white">
-                                <h1 className="display-3 font-weight-bold">Hello,</h1>
+                                <h1 style={{fontSize: "11vw"}} className="font-weight-bold">Hello,</h1>
                                 <div class="d-flex text-white">
                                     <div class="p-2 align-self-start">
-                                        <h1 className="display-4 font-weight-bold">I am Nikhil Verma</h1>
+                                        <h5 style={{fontSize: "6vw"}} className="font-weight-bold">I am Nikhil Verma</h5>
                                     </div>
                                 </div>
                                 <div class="d-flex text-white">
-                                    <div class="p-4 align-self-start">
-                                        <h1 className="display-4 font-weight-bold">Spring Boot, React, React-Native, </h1>
-                                        <h1 className="display-4 mt-0  font-weight-bold">Web-Dev</h1>
+                                    <div class="lign-self-start">
+                                        <h5 style={{fontSize: "4vw"}} className="font-weight-bold">Spring Boot, React, React-Native, Web-Dev</h5>
                                     </div>
                                 </div>
                             </div>
@@ -34,7 +33,7 @@ const Home = () => {
                         </Row>
                         
                     
-            </div>
+            {/* </div> */}
             </section>
             
         
