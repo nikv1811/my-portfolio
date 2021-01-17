@@ -10,7 +10,7 @@ const Projects = () => {
                 <span><p className="text-white text-center">Is se Jyada hai bhi nahi vaise &#x1F622;</p></span>
             </div>
             <Row>
-                <Col lg="4" sm="6" >
+                <Col lg="4" sm="6" className="my-3">
                     <Card color="secondary">
                         <CardBody>
                             <CardTitle><h3>Weather App</h3></CardTitle>
@@ -23,7 +23,7 @@ const Projects = () => {
                         <a href="https://github.com/nikv1811/weather-app"><Button color="warning">Code</Button></a></CardFooter>
                     </Card>
                 </Col>
-                <Col lg="4" sm="6" >
+                <Col lg="4" sm="6" className="my-3">
                     <Card color="secondary">
                         <CardBody>
                             <CardTitle><h3>Expense Tracker</h3></CardTitle>
@@ -34,7 +34,7 @@ const Projects = () => {
                         <CardFooter><span >App Link and code will be added later</span></CardFooter>
                     </Card>
                 </Col>
-                <Col lg="4" sm="6">
+                <Col lg="4" sm="6" className="my-3">
                     <Card color="secondary">
                         <CardBody>
                             <CardTitle><h3>Tic-Tac-Toe</h3></CardTitle>
