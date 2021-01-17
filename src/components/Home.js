@@ -15,21 +15,22 @@ const Home = () => {
             {/* <div  className="dark-overlay" > */}
             
                         
-                        <Row style={{paddingLeft: "4rem"}}>
+                        <Row style={{paddingLeft: "4vw"}}>
                             <div  className="col-lg-6 text-white">
-                                <h1 style={{fontSize: "11vw"}} className="font-weight-bold">Hello,</h1>
+                                <h1 style={{fontSize: "13vw"}} className="display-4 font-weight-bold">Hello,</h1>
                                 <div class="d-flex text-white">
                                     <div class="p-2 align-self-start">
-                                        <h5 style={{fontSize: "6vw"}} className="font-weight-bold">I am Nikhil Verma</h5>
+                                        <h5 style={{fontSize: "8vw"}} className="font-weight-bold">I am Nikhil Verma</h5>
                                     </div>
                                 </div>
-                                <div class="d-flex text-white">
-                                    <div class="lign-self-start">
-                                        <h5 style={{fontSize: "4vw"}} className="font-weight-bold">Spring Boot, React, React-Native, Web-Dev</h5>
-                                    </div>
-                                </div>
+                                
                             </div>
                             <div className="col-lg-6 d-none d-lg-block"><img className="mt-6 pr-5 img-fluid" style={{borderRadius: "25px"}} alt="" src={nikhil} /></div>
+                            <div className="col d-flex text-white">
+                                    <div className="lign-self-start">
+                                        <h5 style={{fontSize: "6vw"}} className="font-weight-bold">Spring Boot, React, React-Native and Web-Dev</h5>
+                                    </div>
+                            </div>
                         </Row>
                         
                     

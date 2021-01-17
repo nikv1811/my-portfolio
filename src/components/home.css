@@ -1,9 +1,9 @@
 #home{
-    background: url(../assets/background.jpg);
+    background: url(../assets/background.png);
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-size: cover;
     background-attachment: scroll;
-    background-size: contain;
+    /* background-size: contain; */
     width: 100%;
     height: auto;
 }

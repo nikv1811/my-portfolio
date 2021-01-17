@@ -13,7 +13,7 @@ const Footer = () =>{
                 <div className="item-hl m-1"><p className="text-white">Contact Me</p></div>
             </div>
             <div className="row-hl d-flex justify-content-center align-items-center">
-                <div className="item-hl"><p className="text-white">Mail  &nbsp;<a href="mailto: nikhilv805@gmail.com.com">nikhilv805@gmail.com
+                <div className="item-hl"><p className="text-white">Mail  <a href="mailto: nikhilv805@gmail.com">nikhilv805@gmail.com
                 </a></p></div>             
             </div>
             <div className="row-hl d-flex justify-content-center align-items-center">
