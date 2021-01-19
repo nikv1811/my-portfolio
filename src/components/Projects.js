@@ -45,6 +45,17 @@ const Projects = () => {
                         <a href="https://github.com/nikv1811/tic-tac-toe"><Button color="warning">Code</Button></a></CardFooter>
                     </Card>
                 </Col>
+                <Col lg="4" sm="6" className="my-3">
+                    <Card color="secondary">
+                        <CardBody>
+                            <CardTitle><h3>My Clinic API</h3></CardTitle>
+                            <CardText>Rest API created using Spring Boot and MySQL(using JPA) for Online App through which Patients can book appointments with the Doctors online
+                            </CardText>
+                        </CardBody>
+                        <CardFooter>
+                        <a href="https://github.com/nikv1811/My-Clinic"><Button color="warning">Code</Button></a></CardFooter>
+                    </Card>
+                </Col>
             </Row>
         </div>
     )
